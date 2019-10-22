@@ -1,6 +1,6 @@
 <?php
 
-  require_once("flybehavior.php");
+  require_once("../ducks/include.php");
 
   class FlyWithWings implements FlyBehavior {
     public function fly() {
