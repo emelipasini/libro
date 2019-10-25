@@ -6,7 +6,6 @@
 
   $mallardDuck = new MallardDuck();
   echo "<br>";
-  // solamente con esta linea se ejecuta quack()
   $mallardDuck->fly();
   echo "<br>";
   $mallardDuck->quack();

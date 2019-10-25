@@ -7,7 +7,7 @@
     // CONSTRUCTOR
     public function __construct() {
       $this->setFlyBehavior(new FlyWithWings());
-      $this->setQuackBehavior(new Quack());
+      $this->setQuackBehavior(new DuckQuack());
       $this->display();
     }
 

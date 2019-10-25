@@ -2,5 +2,8 @@
 
 Ejercicios del libro hechos en PHP
 
-# Ducks
+# Duck Simulator
   - Strategy Pattern
+
+# Weather Station
+  - Observer Pattern

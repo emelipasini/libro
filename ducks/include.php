@@ -6,7 +6,7 @@
   require_once("behaviors/flyrocketpowered.php");
 
   require_once("behaviors/quackbehavior.php");
-  require_once("behaviors/quack.php");
+  require_once("behaviors/duckquack.php");
   require_once("behaviors/mutequack.php");
   require_once("behaviors/squeak.php");
 
