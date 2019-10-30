@@ -19,6 +19,9 @@
     public function getBeverage() {
       return $this->beverage;
     }
+    public function getSize() {
+      return $this->getBeverage()->getSize();
+    }
 
     // METODOS HEREDADOS DE BEVERAGE
     public function getDescription() {

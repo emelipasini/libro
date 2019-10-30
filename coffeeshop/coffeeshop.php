@@ -10,8 +10,6 @@
   require_once("soy.php");
 
   echo "CAFETERÍA <br><br>";
-  echo "Dejo de anda cuando le quise agregar los tamaños de los vasos";
-  echo "Anda sin condimentos y con un solo condimento";
 
   $espresso = new Espresso(1);
   echo "Su orden: <br>";
@@ -25,7 +23,6 @@
   $dark = new Mocha($dark);
   $dark = new Mocha($dark);
   $dark = new Whip($dark);
-  echo $dark->getSize();
   echo "Su orden: <br>";
   echo $dark->getDescription() . "<br>";
   echo "Total: $";
