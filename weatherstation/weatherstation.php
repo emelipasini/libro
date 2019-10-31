@@ -5,7 +5,7 @@
   require_once("staticsdisplay.php");
   require_once("forecastdisplay.php");
 
-  echo "ESTACION METEOROLÓGICA <br>";
+  echo "<b>ESTACION METEOROLÓGICA</b> <br>";
   $estacion = new WeatherData();
   $currentDisplay = new CurrentConditionDisplay($estacion);
   $staticsDisplay = new StaticsDisplay($estacion);

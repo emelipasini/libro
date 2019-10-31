@@ -9,7 +9,7 @@
   require_once("milk.php");
   require_once("soy.php");
 
-  echo "CAFETERÍA <br><br>";
+  echo "<b>CAFETERÍA</b> <br><br>";
 
   $espresso = new Espresso(1);
   echo "Su orden: <br>";

@@ -2,7 +2,7 @@
 
   require_once("include.php");
 
-  echo "PATOS <br>";
+  echo "<b>PATOS</b> <br><br>";
 
   $mallardDuck = new MallardDuck();
   echo "<br>";

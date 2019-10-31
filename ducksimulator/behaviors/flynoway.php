@@ -1,6 +1,6 @@
 <?php
 
-  require_once("../ducks/include.php");
+  require_once("../ducksimulator/include.php");
 
   class FlyNoWay implements FlyBehavior {
     public function fly() {

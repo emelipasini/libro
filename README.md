@@ -2,8 +2,14 @@
 
 Ejercicios del libro hechos en PHP
 
-# Duck Simulator
+### Duck Simulator
   - Strategy Pattern
 
-# Weather Station
+### Weather Station
   - Observer Pattern
+
+### Coffee Shop
+  - Decorator Pattern
+
+### Pizza shop
+  - Factory Pattern
