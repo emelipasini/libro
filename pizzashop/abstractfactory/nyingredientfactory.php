@@ -3,9 +3,9 @@
   require_once("ingredientfactory.php");
   require_once("ingredients/thincrustdough.php");
   require_once("ingredients/marinarasauce.php");
-  require_once("ingredients/nycheese.php");
+  require_once("ingredients/reggianocheese.php");
   require_once("ingredients/nyveggies.php");
-  require_once("ingredients/nyclam.php");
+  require_once("ingredients/freshclam.php");
   require_once("ingredients/pepperoni.php");
 
   class NYIngredientFactory implements IngredientFactory {
@@ -20,7 +20,7 @@
       return $pizza;
     }
     public function createCheese() {
-      $pizza = new NYCheese();
+      $pizza = new ReggianoCheese();
       return $pizza;
     }
     public function createVeggies() {
@@ -32,7 +32,7 @@
       return $pizza;
     }
     public function createClam() {
-      $pizza = new NYClam();
+      $pizza = new FreshClam();
       return $pizza;
     }
 

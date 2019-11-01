@@ -3,9 +3,9 @@
   require_once("ingredientfactory.php");
   require_once("ingredients/thickcrustdough.php");
   require_once("ingredients/plumtomatosauce.php");
-  require_once("ingredients/chicagocheese.php");
+  require_once("ingredients/mozzarellaparmesanocheese.php");
   require_once("ingredients/chicagoveggies.php");
-  require_once("ingredients/chicagoclam.php");
+  require_once("ingredients/notfreshclam.php");
   require_once("ingredients/pepperoni.php");
 
   class ChicagoIngredientFactory implements IngredientFactory {
@@ -18,7 +18,7 @@
       return new PlumTomatoSauce();
     }
     public function createCheese() {
-      return new ChicagoCheese();
+      return new MozzarellaParmesanoCheese();
     }
     public function createVeggies() {
       return new ChicagoVeggies();
@@ -27,7 +27,7 @@
       return new Pepperoni();
     }
     public function createClam() {
-      return new ChicagoClam();
+      return new NotFreshClam();
     }
 
   }

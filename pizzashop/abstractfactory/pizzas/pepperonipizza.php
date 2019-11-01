@@ -1,10 +1,10 @@
 <?php
 
-  require_once("../pizzashop/pizza.php");
-  require_once("../pizzashop/nyingredientfactory.php");
-  require_once("../pizzashop/chicagoingredientfactory.php");
+  require_once("../abstractfactory/pizza.php");
+  require_once("../abstractfactory/nyingredientfactory.php");
+  require_once("../abstractfactory/chicagoingredientfactory.php");
 
-  class VeggiePizza extends Pizza {
+  class PepperoniPizza extends Pizza {
 
     // CONSTRUCTOR
     public function __construct($name, $factory) {
@@ -19,6 +19,7 @@
       $this->getFactory()->createSauce();
       $this->getFactory()->createCheese();
       $this->getFactory()->createVeggies();
+      $this->getFactory()->createPepperoni();
     }
 
   }

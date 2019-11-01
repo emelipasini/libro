@@ -1,9 +1,7 @@
 <?php
 
   require_once("nystylepizzastore.php");
-  // require_once("pizzas/nystylecheesepizza.php");
   require_once("chicagostylepizzastore.php");
-  // require_once("pizzas/chicagostylecheesepizza.php");
 
 
   echo "<b>PIZZERÍA</b> <br><br>";

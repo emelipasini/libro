@@ -13,3 +13,5 @@ Ejercicios del libro hechos en PHP
 
 ### Pizza shop
   - Factory Pattern
+    - Factory Method
+    - Abstract Factory

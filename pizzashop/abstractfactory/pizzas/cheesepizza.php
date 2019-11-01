@@ -1,8 +1,8 @@
 <?php
 
-  require_once("../pizzashop/pizza.php");
-  require_once("../pizzashop/nyingredientfactory.php");
-  require_once("../pizzashop/chicagoingredientfactory.php");
+  require_once("../abstractfactory/pizza.php");
+  require_once("../abstractfactory/nyingredientfactory.php");
+  require_once("../abstractfactory/chicagoingredientfactory.php");
 
   class CheesePizza extends Pizza {
 
